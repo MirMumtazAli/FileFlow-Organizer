@@ -66,16 +66,7 @@ for subdir in sub_folders:
     print(f'Sub folders {sub_folders} created successfully.')
 
 print(20*'-')
-
-# Match the file based on its extension
-for file_name in listing_directory:
-    file_path = os.path.join(folder_path,file_name)
-
-# Splitting files extension.
-for file_name in listing_directory:
-    if os.path.isfile(os.path.join(folder_path, file_name)):
-        split_extensions = list(os.path.splitext(file_name))[1]
-        
+      
 # Match the file based on its extension
 for file_name in listing_directory:
     file_path = os.path.join(folder_path, file_name)
