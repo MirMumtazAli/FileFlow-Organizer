@@ -1,6 +1,7 @@
 # FileFlow Organizer
 
-`File_Organizer.py` is a Python script that organizes files in a directory into subfolders based on their types.
+`
+FileFlow Organizer.py` is a Python script that organizes files in a directory into subfolders based on their types.
 
 ## Features
 - Automatically sorts files by type (e.g., images, documents).
